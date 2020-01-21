@@ -49,9 +49,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [],
-  router: {
-    base: '/olivosctgtest/'
-  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
