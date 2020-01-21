@@ -1,0 +1,65 @@
+.v-application {
+  font-family: 'Arimo', sans-serif !important;
+  overflow-wrap: break-word;
+}
+
+.carousel-3d-container {
+  top: 25px;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0
+}
+
+.v-application .accent--text {
+  color: #008856 !important;
+}
+
+.v-application .primary--text {
+  color: #008856 !important;
+}
+
+.v-text-field .v-input__control {
+  color: #008856 !important;
+}
+
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+@-moz-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "olv",
+  "version": "1.0.0",
+  "description": "nuxt",
+  "author": "olivos",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "jquery": "latest",
+    "nuxt": "^2.0.0",
+    "toastr": "^2.1.4",
+    "vue": "latest",
+    "vue-carousel-3d": "^0.2.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vuetify": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "push-dir": "^0.4.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  }
+}
