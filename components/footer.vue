@@ -86,7 +86,7 @@
           if (this.validate()) {
             return;
           }
-          let response = await axios.get('http://www.api.losolivoscartagena.com/api/email', {
+          let response = await axios.get('https://www.api.losolivoscartagena.com/api/email', {
             params: {
               'nombre_apellido': this.nombre_apellido,
               'correo': this.correo,

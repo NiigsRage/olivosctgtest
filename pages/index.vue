@@ -201,7 +201,7 @@
     methods: {
       async getObituarios() {
         try {
-          let respose = await axios.get('http://www.api.losolivoscartagena.com/api/obituarios');
+          let respose = await axios.get('https://www.api.losolivoscartagena.com/api/obituarios');
           this.obituarios_data = respose.data;
           let info;
           for (let i = 0; i < respose.data.length; i++) {
